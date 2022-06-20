@@ -21,9 +21,9 @@ const Footer = () => {
             />
 
             <div>
-              <p>123 Acme</p>
-              <p>123 Acme</p>
-              <p>123 Acme</p>
+              <p>123 Streed.</p>
+              <p>Ferads Neighbourhood</p>
+              <p>NewYork</p>
             </div>
           </div>
           <div className="phone">
@@ -32,7 +32,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fffff", marginRight: "2rem" }}
               />
-              0532-432-21-21
+              +354 532-432-21-21
             </h4>
           </div>
           <div className="email">
