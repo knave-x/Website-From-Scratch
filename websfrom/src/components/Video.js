@@ -12,16 +12,17 @@ const Video = () => {
       <div className="content">
         <h1> Galaxy. Travel.</h1>
         <p> World's first civilian space traver.</p>
+
+        <div>
+          <Link to="/training" className="btn">
+            Training
+          </Link>
+          <Link to="/contact" className="btn btn-light">
+            Launch
+          </Link>
+        </div>
       </div>
-    <div>
-       
-        <Link to="/training" className="btn">Training</Link>
-        <Link to="/contact" className="btn btn-light">Launch</Link>
-        
     </div>
-
-    </div>
-
   );
 };
 
