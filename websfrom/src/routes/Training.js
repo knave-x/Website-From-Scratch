@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../components/Footer";
+import TrainingSection from "../components/Training";
 import HeroImage from "../components/HeroImage";
 import Navbar from "../components/Navbar";
 const Training = () => {
@@ -7,7 +7,7 @@ const Training = () => {
     <div>
       <Navbar />
       <HeroImage heading="TRAINING." text="Pre-Flight & In Flight Training." />
-      <Footer />
+      <TrainingSection />
     </div>
   );
 };
