@@ -36,6 +36,11 @@ const Navbar = () => {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+        <li>
+          <Link to="/iss">ISS</Link>
+        </li>
+
+
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
